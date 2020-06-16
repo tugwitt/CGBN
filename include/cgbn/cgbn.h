@@ -75,10 +75,6 @@ const char *cgbn_error_string(cgbn_error_report_t *report);
      #endif
   #endif
   #include "cgbn_cuda.h"
-#elif defined(__GMP_H__)
-  #include "cgbn_mpz.h"
-#else
-  #include "cgbn_cpu.h"
 #endif
 
 
